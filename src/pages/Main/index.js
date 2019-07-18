@@ -1,7 +1,12 @@
 import React from 'react';
 
-// import { Container } from './styles';
+import { Title } from './styles';
 
 export default function Main() {
-  return <h1>Page Main</h1>;
+  return (
+    <Title error={false}>
+      Page Main
+      <small> Menor </small>
+    </Title>
+  );
 }
